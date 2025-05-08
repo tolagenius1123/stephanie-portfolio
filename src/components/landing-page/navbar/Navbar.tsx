@@ -4,7 +4,7 @@ import MobileNavbar from "./MobileNavbar";
 
 const Navbar = () => {
 	return (
-		<div className="w-full px-8 md:px-16 py-3 flex items-center justify-between fixed z-10 shadow-md">
+		<div className="w-full px-8 md:px-16 py-3 flex items-center justify-between fixed z-10 shadow-md bg-white">
 			<Link href="/">
 				<h2 className="text-4xl font-leckerli text-customGreen font-semibold">
 					SU

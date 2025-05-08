@@ -225,6 +225,8 @@
 
 	/* COLORS */
 	--color-customGreen: #029837;
+	--color-customBlack: #000033;
+	--color-customOffWhite: #f7fff6;
 }
 
 .custom-link {

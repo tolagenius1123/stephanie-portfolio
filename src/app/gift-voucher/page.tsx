@@ -51,8 +51,8 @@ export default function GiftVoucher() {
 			<div className="w-full bg-white py-10 flex justify-around px-5">
 				<div className="border-[2px] border-grey h-[300px] w-auto md:w-[900px] px-10 md:px-20 py-5 rounded-[50px] flex items-center justify-around">
 					<p className="text-customGreen text-xl md:text-[32px] text-center font-semibold">
-						“Empowering brands with gift voucher solutions that
-						drive engagement and delight customers."
+						&quot;Empowering brands with gift voucher solutions that
+						drive engagement and delight customers.&quot;
 					</p>
 				</div>
 			</div>

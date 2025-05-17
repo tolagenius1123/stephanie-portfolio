@@ -18,8 +18,8 @@ const About = () => {
 							My name is Ukachukwu Stephnie Munachi!
 						</p>
 						<p className="">
-							I'm a passionate and detail-oriented UI/UX designer
-							dedicated to crafting exceptional digital
+							I&apos;m a passionate and detail-oriented UI/UX
+							designer dedicated to crafting exceptional digital
 							experiences that balance usability and aesthetics.
 							My approach is deeply rooted in user-centered design
 							principles—I focus on understanding user needs and
@@ -52,9 +52,9 @@ const About = () => {
 								I take an iterative approach in my work to
 								ensure the final result aligns with your
 								creative vision and reflects your unique brand
-								identity. We'll work together to refine and
-								fine-tune your site's design, leaving no detail
-								overlooked
+								identity. We&apos;ll work together to refine and
+								fine-tune your site&apos;s design, leaving no
+								detail overlooked
 							</p>
 						</div>
 					</div>

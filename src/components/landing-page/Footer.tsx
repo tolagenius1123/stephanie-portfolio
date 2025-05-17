@@ -9,13 +9,13 @@ const Footer = () => {
 			<div className="w-full md:w-1/2 text-white flex flex-col gap-[100px]">
 				<div className="flex flex-col gap-5">
 					<h2 className="text-bold text-[30px] md:text-[40px]">
-						Let's Work Together
+						Let&apos;s Work Together
 					</h2>
 					<p>
-						Ready to create something impactful? Whether it's a
-						fresh concept or a project in progress, I'm all in—let's
-						bring your vision to life with clarity, creativity, and
-						purpose.
+						Ready to create something impactful? Whether it&apos;s a
+						fresh concept or a project in progress, I&apos;m all in
+						let&apos;s bring your vision to life with clarity,
+						creativity, and purpose.
 					</p>
 				</div>
 				<p>ukachukwustephnie@gmail.com</p>

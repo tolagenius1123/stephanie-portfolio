@@ -16,15 +16,16 @@ export default function Hero() {
 				<div className="flex flex-col gap-4 text-center md:text-left items-center md:items-start text-customBlack">
 					<p className="text-xl">Hello🖐</p>
 					<h2 className="text-4xl font-bold">
-						I'm Stephanie Ukachukwu
+						I&apos;m Stephanie Ukachukwu
 					</h2>
 					<p>
-						I'm a passionate UI/UX designer dedicated to crafting
-						intuitive, functional, and visually engaging digital
-						experiences. With a strong focus on user-centered
-						design, I strive to create interfaces that are not only
-						beautiful but also meaningful, ensuring that every
-						interaction feels seamless, accessible, and purposeful.
+						I&apos;m a passionate UI/UX designer dedicated to
+						crafting intuitive, functional, and visually engaging
+						digital experiences. With a strong focus on
+						user-centered design, I strive to create interfaces that
+						are not only beautiful but also meaningful, ensuring
+						that every interaction feels seamless, accessible, and
+						purposeful.
 					</p>
 					<div className="">
 						<CustomButton

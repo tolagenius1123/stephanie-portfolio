@@ -42,10 +42,10 @@ export default function HealthCare() {
 						<h2 className="text-xl  font-semibold">
 							Easily schedule an appointment with a qualified
 							doctor in just a few steps no long waits, no
-							complicated processes. Whether it's for a routine
-							check-up or a specific health concern, getting the
-							care you need has never been quicker or more
-							convenient.
+							complicated processes. Whether it&apos;s for a
+							routine check-up or a specific health concern,
+							getting the care you need has never been quicker or
+							more convenient.
 						</h2>
 					</div>
 				</div>
@@ -56,10 +56,10 @@ export default function HealthCare() {
 			<div className="w-full bg-white py-10 flex justify-around px-5">
 				<div className="border-[2px] border-grey h-[300px] w-auto md:w-[900px] px-10 md:px-20 py-5 rounded-[50px] flex items-center justify-around">
 					<p className="text-customGreen text-xl md:text-[32px] text-center font-semibold">
-						"Designing impactful healthcare experiences—seamlessly
-						connecting patients to trusted doctors, essential
-						services, and personalized care for better health
-						outcomes."
+						&quot;Designing impactful healthcare
+						experiences—seamlessly connecting patients to trusted
+						doctors, essential services, and personalized care for
+						better health outcomes.&quot;
 					</p>
 				</div>
 			</div>

@@ -1,8 +1,12 @@
+"use client";
 import Image from "next/image";
 import CustomButton from "../shared/CustomButton";
 import { Portrait } from "@/assets/images";
+import { useRouter } from "next/navigation";
 
 export default function Hero() {
+	const router = useRouter();
+
 	return (
 		<div
 			id="hero"
@@ -27,6 +31,7 @@ export default function Hero() {
 							btnType="button"
 							btnStyles="mx-auto md:mx:0 mt-5 w-[157px] h-[52px] hover:border-[2px] hover:border-customGreen hover:bg-white rounded-3xl cursor-pointer text-white hover:text-customGreen font-medium bg-customGreen transition-all duration-500 ease-in-out"
 							btnTitle="Connect With Me"
+							btnAction={() => router.push("/#contact")}
 						/>
 					</div>
 				</div>

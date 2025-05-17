@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import { AlignRight } from "lucide-react";
 import {
@@ -9,8 +10,11 @@ import {
 	SheetTrigger,
 } from "@/components/ui/sheet";
 import CustomButton from "@/components/shared/CustomButton";
+import { useRouter } from "next/navigation";
 
 export default function MobileNavbar() {
+	const router = useRouter();
+
 	return (
 		<div className="md:hidden">
 			<Sheet>
@@ -59,6 +63,7 @@ export default function MobileNavbar() {
 							btnType="button"
 							btnStyles="w-[157px] h-[52px] border-customGreen border-[2px] rounded-3xl cursor-pointer text-customGreen font-medium hover:border-none hover:bg-customGreen hover:text-white transition-all duration-500 ease-in-out"
 							btnTitle="Connect With Me"
+							btnAction={() => router.push("/#contact")}
 						/>
 					</div>
 					{/* <SheetFooter>

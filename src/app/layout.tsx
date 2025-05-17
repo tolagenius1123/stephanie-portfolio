@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Epilogue } from "next/font/google";
 import "./globals.css";
+import { ToastContainer } from "react-toastify";
 
 const epilogue = Epilogue({
 	variable: "--font-poppins",
@@ -20,7 +21,10 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en" className="scroll-smooth">
-			<body className={`${epilogue.variable}`}>{children}</body>
+			<body className={`${epilogue.variable}`}>
+				{children}
+				<ToastContainer position="top-right" />
+			</body>
 		</html>
 	);
 }

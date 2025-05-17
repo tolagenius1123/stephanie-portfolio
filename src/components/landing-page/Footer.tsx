@@ -2,7 +2,10 @@ import ContactForm from "../shared/ContactForm";
 
 const Footer = () => {
 	return (
-		<div className="w-full bg-customPurple px-8 md:px-16 pt-[50px] md:pt-[100px] pb-20 flex flex-col md:flex-row items-center gap-10">
+		<div
+			id="contact"
+			className="w-full bg-customPurple px-8 md:px-16 pt-[50px] md:pt-[100px] pb-20 flex flex-col md:flex-row items-center gap-10"
+		>
 			<div className="w-full md:w-1/2 text-white flex flex-col gap-[100px]">
 				<div className="flex flex-col gap-5">
 					<h2 className="text-bold text-[30px] md:text-[40px]">

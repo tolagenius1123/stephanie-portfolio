@@ -1,8 +1,12 @@
-import CustomButton from "@/components/shared/CustomButton";
+"use client";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import MobileNavbar from "./MobileNavbar";
+import CustomButton from "@/components/shared/CustomButton";
 
 const Navbar = () => {
+	const router = useRouter();
+
 	return (
 		<div className="w-full px-8 md:px-16 py-3 flex items-center justify-between fixed z-10 shadow-md bg-white">
 			<Link href="/">
@@ -41,6 +45,7 @@ const Navbar = () => {
 					btnType="button"
 					btnStyles="w-[157px] h-[52px] border-customGreen border-[2px] rounded-3xl cursor-pointer text-customGreen font-medium hover:border-none hover:bg-customGreen hover:text-white transition-all duration-500 ease-in-out"
 					btnTitle="Connect With Me"
+					btnAction={() => router.push("/#contact")}
 				/>
 			</div>
 			<MobileNavbar />

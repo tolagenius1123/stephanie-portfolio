@@ -1,6 +1,9 @@
 const Services = () => {
 	return (
-		<div className="w-full bg-white px-8 md:px-16 pt-[50px] md:pt-[100px] pb-20 md:pb-30 flex flex-col items-center">
+		<div
+			id="services"
+			className="w-full bg-white px-8 md:px-16 pt-[50px] md:pt-[100px] pb-20 md:pb-30 flex flex-col items-center"
+		>
 			<div className="flex items-center justify-around">
 				<h2 className="text-2xl font-bold">My Services</h2>
 			</div>

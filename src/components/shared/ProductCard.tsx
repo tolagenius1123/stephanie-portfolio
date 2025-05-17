@@ -1,5 +1,4 @@
 "use client";
-import { Product1 } from "@/assets/images";
 import Image from "next/image";
 import CustomButton from "./CustomButton";
 import { useRouter } from "next/navigation";
@@ -10,7 +9,6 @@ type ProductCardProps = {
 
 export default function ProductCard({ product }: ProductCardProps) {
 	const router = useRouter();
-	console.log(product);
 
 	return (
 		<div className="relative">

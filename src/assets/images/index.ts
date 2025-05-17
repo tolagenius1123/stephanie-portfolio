@@ -13,6 +13,10 @@ import Gift1 from "./gift1.svg";
 import Gift2 from "./gift2.svg";
 import Gift3 from "./gift3.svg";
 import Gift4 from "./gift4.svg";
+import Health1 from "./health1.svg";
+import Health2 from "./health2.svg";
+import Health3 from "./health3.svg";
+import Health4 from "./health4.svg";
 
 export {
 	Portrait,
@@ -30,4 +34,8 @@ export {
 	Gift2,
 	Gift3,
 	Gift4,
+	Health1,
+	Health2,
+	Health3,
+	Health4,
 };

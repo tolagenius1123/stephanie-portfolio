@@ -10,7 +10,7 @@ export default function Hero() {
 	return (
 		<div
 			id="hero"
-			className="w-full bg-white px-8 md:px-16 pt-[150px] md:pt-[200px] pb-20 flex flex-col md:flex-row justify-between gap-10 md:gap-10"
+			className="w-full bg-white px-8 md:px-16 pt-[150px] pb-20 flex flex-col md:flex-row justify-between gap-10 md:gap-10"
 		>
 			<div className="w-full md:w-1/2 flex items-center justify-center">
 				<div className="flex flex-col gap-4 text-center md:text-left items-center md:items-start text-customBlack">

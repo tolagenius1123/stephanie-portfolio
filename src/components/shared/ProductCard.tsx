@@ -28,7 +28,7 @@ export default function ProductCard({ product }: ProductCardProps) {
 				/>
 			</div>
 			<div className="text-customGreen mt-3">
-				<h2 className="text-2xl font-bold">Product</h2>
+				{/* <h2 className="text-2xl font-bold">Product</h2> */}
 				<p className="">{product.projectName}</p>
 			</div>
 		</div>

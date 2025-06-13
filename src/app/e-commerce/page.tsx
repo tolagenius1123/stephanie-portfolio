@@ -1,4 +1,4 @@
-import { Ecom1, Ecom2, Ecom3, Ecom4 } from "@/assets/images";
+import { Ecom1, Ecom2, Ecom3 } from "@/assets/images";
 import Footer from "@/components/landing-page/Footer";
 import Navbar from "@/components/landing-page/navbar/Navbar";
 import Image from "next/image";

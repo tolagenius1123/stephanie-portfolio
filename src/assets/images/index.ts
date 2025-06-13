@@ -4,6 +4,7 @@ import Experience2 from "./experience2.svg";
 import Product1 from "./product1.svg";
 import Product2 from "./product2.svg";
 import Product3 from "./product3.svg";
+import Product4 from "./product4.svg";
 import Ecom1 from "./ecom1.svg";
 import Ecom2 from "./ecom2.svg";
 import Ecom3 from "./ecom3.svg";
@@ -25,6 +26,7 @@ export {
 	Product1,
 	Product2,
 	Product3,
+	Product4,
 	Ecom1,
 	Ecom2,
 	Ecom3,

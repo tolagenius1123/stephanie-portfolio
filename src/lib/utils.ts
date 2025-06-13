@@ -1,4 +1,4 @@
-import { Product1, Product2, Product3 } from "@/assets/images";
+import { Product1, Product2, Product3, Product4 } from "@/assets/images";
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
 
@@ -24,5 +24,11 @@ export const projects: Product[] = [
 		projectName: "Health Care System",
 		projectImage: Product3,
 		projectLink: "/health-care",
+	},
+	{
+		projectId: 4,
+		projectName: "E-commerce Merchant",
+		projectImage: Product4,
+		projectLink: "/merchant",
 	},
 ];

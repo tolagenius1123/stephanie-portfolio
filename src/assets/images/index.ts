@@ -18,6 +18,10 @@ import Health1 from "./health1.svg";
 import Health2 from "./health2.svg";
 import Health3 from "./health3.svg";
 import Health4 from "./health4.svg";
+import Merchant1 from "./merchant1.svg";
+import Merchant2 from "./merchant2.svg";
+import Merchant3 from "./merchant3.svg";
+import Merchant4 from "./merchant4.svg";
 
 export {
 	Portrait,
@@ -40,4 +44,8 @@ export {
 	Health2,
 	Health3,
 	Health4,
+	Merchant1,
+	Merchant2,
+	Merchant3,
+	Merchant4,
 };

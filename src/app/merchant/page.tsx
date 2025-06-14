@@ -1,16 +1,7 @@
 import Image from "next/image";
 import Footer from "@/components/landing-page/Footer";
 import Navbar from "@/components/landing-page/navbar/Navbar";
-import {
-	Health1,
-	Health2,
-	Health3,
-	Health4,
-	Merchant1,
-	Merchant2,
-	Merchant3,
-	Merchant4,
-} from "@/assets/images";
+import { Merchant1, Merchant2, Merchant3, Merchant4 } from "@/assets/images";
 
 export default function Merchant() {
 	return (

@@ -15,20 +15,21 @@ export const projects: Product[] = [
 	},
 	{
 		projectId: 2,
-		projectName: "Gift Voucher Solution",
+		projectName: "Bill Payment Solution",
 		projectImage: Product2,
 		projectLink: "/gift-voucher",
 	},
+
 	{
 		projectId: 3,
-		projectName: "Health Care System",
-		projectImage: Product3,
-		projectLink: "/health-care",
-	},
-	{
-		projectId: 4,
 		projectName: "E-commerce Merchant",
 		projectImage: Product4,
 		projectLink: "/merchant",
+	},
+	{
+		projectId: 4,
+		projectName: "Health Care System",
+		projectImage: Product3,
+		projectLink: "/health-care",
 	},
 ];

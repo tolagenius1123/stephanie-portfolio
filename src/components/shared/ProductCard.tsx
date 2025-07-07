@@ -72,7 +72,7 @@ export default function ProductCard({ product }: ProductCardProps) {
 						btnType="button"
 						btnAction={() => router.push(product.projectLink)}
 					/>
-					<div className="text-customGreen">
+					<div className="text-black">
 						<p className="text-lg font-semibold">
 							{product.projectName}
 						</p>

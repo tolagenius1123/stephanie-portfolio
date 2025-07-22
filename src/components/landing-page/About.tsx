@@ -1,4 +1,4 @@
-import { Experience, Experience2 } from "@/assets/images";
+import { Experience, Experience2, Portrait3, Portrait4 } from "@/assets/images";
 import Image from "next/image";
 
 const About = () => {
@@ -60,7 +60,12 @@ const About = () => {
 					</div>
 				</div>
 				<div className="w-full md:w-1/2 flex items-center md:items-start justify-around md:justify-end">
-					<Image src={Experience2} alt="experience" />
+					<Image
+						src={Portrait4}
+						alt="experience"
+						className="rounded-2xl"
+					/>
+					{/* <Image src={Experience2} alt="experience" /> */}
 				</div>
 			</div>
 		</div>

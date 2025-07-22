@@ -22,6 +22,10 @@ import Merchant1 from "./merchant1.svg";
 import Merchant2 from "./merchant2.svg";
 import Merchant3 from "./merchant3.svg";
 import Merchant4 from "./merchant4.svg";
+import Portrait1 from "./portrait1.png";
+import Portrait2 from "./portrait2.png";
+import Portrait3 from "./portrait3.jpg";
+import Portrait4 from "./portrait4.jpg";
 
 export {
 	Portrait,
@@ -48,4 +52,8 @@ export {
 	Merchant2,
 	Merchant3,
 	Merchant4,
+	Portrait1,
+	Portrait2,
+	Portrait3,
+	Portrait4,
 };

@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import CustomButton from "../shared/CustomButton";
-import { Portrait } from "@/assets/images";
+import { Portrait, Portrait1, Portrait2 } from "@/assets/images";
 import { useRouter } from "next/navigation";
 
 export default function Hero() {
@@ -16,7 +16,7 @@ export default function Hero() {
 				<div className="flex flex-col gap-4 text-center md:text-left items-center md:items-start text-customBlack">
 					<p className="text-xl">Hello🖐</p>
 					<h2 className="text-4xl font-bold">
-						I&apos;m Stephanie Ukachukwu
+						I&apos;m Stephnie Ukachukwu
 					</h2>
 					<p>
 						I&apos;m a passionate UI/UX designer dedicated to
@@ -38,7 +38,11 @@ export default function Hero() {
 				</div>
 			</div>
 			<div className="w-full md:w-1/2 flex items-center justify-center">
-				<Image src={Portrait} alt="portrait" />
+				<Image
+					src={Portrait1}
+					alt="portrait"
+					className="size-[400px]"
+				/>
 			</div>
 		</div>
 	);

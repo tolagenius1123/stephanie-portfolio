@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import CustomButton from "../shared/CustomButton";
-import { Portrait, Portrait1, Portrait2 } from "@/assets/images";
+import { Portrait1 } from "@/assets/images";
 import { useRouter } from "next/navigation";
 
 export default function Hero() {

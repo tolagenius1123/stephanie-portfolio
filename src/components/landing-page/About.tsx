@@ -1,4 +1,4 @@
-import { Experience, Experience2, Portrait3, Portrait4 } from "@/assets/images";
+import { Experience, Portrait4 } from "@/assets/images";
 import Image from "next/image";
 
 const About = () => {
